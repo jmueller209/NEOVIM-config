@@ -16,7 +16,7 @@ This repository contains the lua configuration files for Neovim, along with the 
    ```
 - Zathura installed for PDF viewing. On Arch Linux, you can use:
   ```bash
-  sudo pacman -S zathura
+  sudo pacman -S zathura zathura-pdf-mupdf
   ```
 - Texlive installed for LaTeX support. On Arch Linux, you can use:
   ```bash
@@ -26,7 +26,7 @@ This repository contains the lua configuration files for Neovim, along with the 
 ## Summary of all commands
 If you want to install all prerequisites at once, you can run the following commands in your terminal
   ```bash
-  sudo pacman -S git neovim zathura texlive-bin texlive-core texlive-latexextra texlive-binextra && sudo npm install -g tree-sitter-cli
+  sudo pacman -S git neovim zathura zathura-pdf-mupdf texlive-bin texlive-core texlive-latexextra texlive-binextra && sudo npm install -g tree-sitter-cli
   ```
 
 :w
