@@ -26,7 +26,7 @@ This repository contains the lua configuration files for Neovim, along with the 
 ## Summary of all commands
 If you want to install all prerequisites at once, you can run the following commands in your terminal
   ```bash
-  sudo pacman -S git neovim zathura texlive-binextra && sudo npm install -g tree-sitter-cli
+  sudo pacman -S git neovim zathura texlive-bin texlive-core texlive-latexextra texlive-binextra && sudo npm install -g tree-sitter-cli
   ```
 
 :w
