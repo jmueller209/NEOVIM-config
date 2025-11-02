@@ -18,9 +18,9 @@ This repository contains the lua configuration files for Neovim, along with the 
   ```bash
   sudo pacman -S zathura
   ```
-- Latexmk installed for LaTeX support. On Arch Linux, you can use:
+- Texlive installed for LaTeX support. On Arch Linux, you can use:
   ```bash
-    sudo pacman -S texlive-binextra
+    sudo pacman -S texlive-bin texlive-core texlive-latexextra texlive-binextra 
   ```
 
 ## Summary of all commands
