@@ -2,11 +2,11 @@
 This repository contains the lua configuration files for Neovim, along with the necessary plugins and settings to enhance your coding experience. Follow the instructions below to set up and use these dotfiles.
 
 # Prerequisites (Arch)
-- Git installed. You can install it via your package manager. On Arch Linux, you can use:
+- Git installed. You can install it via your package manager. On Arch, you can use:
   ```bash
   sudo pacman -S git
   ```
-- Neovim installed. It can be installed via your package manager. On Arch Linux, you can use:
+- Neovim installed. It can be installed via your package manager. On Arch, you can use:
   ```bash
   sudo pacman -S neovim
   ```
@@ -14,28 +14,28 @@ This repository contains the lua configuration files for Neovim, along with the 
   ```bash
   sudo npm install -g tree-sitter-cli
    ```
-- Zathura installed for PDF viewing. On Arch Linux, you can use:
+- Zathura installed for PDF viewing. On Arch, you can use:
   ```bash
   sudo pacman -S zathura zathura-pdf-mupdf
   ```
-- Texlive installed for LaTeX support. On Arch Linux, you can use:
+- Texlive installed for LaTeX support. On Arch, you can use:
   ```bash
     sudo pacman -S texlive-bin texlive-core texlive-latexextra texlive-binextra 
   ```
 
 ## Summary of all commands (Arch)
-If you want to install all prerequisites at once, you can run the following commands in your terminal
+If you want to install all prerequisites at once, you can run the following commands in your terminal on Arch:
   ```bash
   sudo pacman -S git neovim zathura zathura-pdf-mupdf texlive-bin texlive-core texlive-latexextra texlive-binextra && sudo npm install -g tree-sitter-cli
   ```
 
 # Prerequisites (Fedora)
 
-- Git installed. You can install it via your package manager. On Arch Linux, you can use:
+- Git installed. You can install it via your package manager. On Fedora, you can use:
   ```bash
   sudo dnf install git
   ```
-- Neovim installed. It can be installed via your package manager. On Arch Linux, you can use:
+- Neovim installed. It can be installed via your package manager. On Fedora, you can use:
   ```bash
   sudo dnf install neovim
   ```
@@ -43,17 +43,17 @@ If you want to install all prerequisites at once, you can run the following comm
   ```bash
   sudo npm install -g tree-sitter-cli
    ```
-- Zathura installed for PDF viewing. On Arch Linux, you can use:
+- Zathura installed for PDF viewing. On Fedora, you can use:
   ```bash
   sudo dnf install zathura zathura-pdf-mupdf
   ```
-- Texlive installed for LaTeX support. On Arch Linux, you can use:
+- Texlive installed for LaTeX support. On Fedora, you can use:
   ```bash
     sudo dnf install texlive-scheme-medium 
   ```
 
 ## Summary of all commands (Fedora)
-If you want to install all prerequisites at once, you can run the following commands in your terminal
+If you want to install all prerequisites at once, you can run the following commands in your terminal on Fedora:
   ```bash
   sudo dnf install git neovim zathura zathura-pdf-mupdf texlive-scheme-medium && sudo npm install -g tree-sitter-cli
   ```
