@@ -49,13 +49,13 @@ If you want to install all prerequisites at once, you can run the following comm
   ```
 - Texlive installed for LaTeX support. On Arch Linux, you can use:
   ```bash
-    sudo dnf install texlive-bin texlive-core 
+    sudo dnf install texlive-scheme-medium 
   ```
 
 ## Summary of all commands (Fedora)
 If you want to install all prerequisites at once, you can run the following commands in your terminal
   ```bash
-  sudo dnf install git neovim zathura zathura-pdf-mupdf texlive-bin texlive-core && sudo npm install -g tree-sitter-cli
+  sudo dnf install git neovim zathura zathura-pdf-mupdf texlive-scheme-medium && sudo npm install -g tree-sitter-cli
   ```
 
 :w
