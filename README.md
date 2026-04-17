@@ -52,7 +52,7 @@ If you want to install all prerequisites at once, you can run the following comm
     sudo dnf install texlive-scheme-medium texlive-latexmk 
   ```
 
-## Summary of all commands (Arch)
+## Summary of all commands (Fedora)
 If you want to install all prerequisites at once, you can run the following commands in your terminal
   ```bash
   sudo dnf install git neovim zathura zathura-pdf-mupdf texlive-scheme-medium texlive-latexmk && sudo npm install -g tree-sitter-cli
