@@ -66,4 +66,16 @@ Once you have installed the prerequisites, clone this repository into you Neovim
 git clone https://github.com/jmueller209/NEOVIM-config.git ~/.config/nvim
 ```
 
+After installing open NeoVim wait for all plugins to be installed and run the following commands:
+
+Initialize remote plugins:
+```bash
+:UpdateRemotePlugins
+```
+
+Sign in to GitHub Copilot:
+```bash
+:Copilot setup
+```
+
 You should now be able to open Neovim. All the plugins and configurations should be automatically set up.
